@@ -1,0 +1,88 @@
+/* Styles for the entire webpage */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for headings */
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Main header */
+#main-header {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Reusable class for centered text */
+.center-text {
+    text-align: center;
+}
+
+/* Reusable class for content boxes */
+.info-box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Makes each Flexbox section take equal space */
+.flex-container section {
+    flex: 1;
+}
+
+/* Unique section on the home page */
+#fish-list {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Unique section on the care page */
+#care-tips {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Footer */
+#main-footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
