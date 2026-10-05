@@ -1,88 +1,78 @@
-/* Styles for the entire webpage */
 body {
-    background-color: lightblue;
     font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222222;
     margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
-/* Styles for headings */
-h1 {
+header {
+    background-color: #2f6f73;
+    color: white;
     text-align: center;
-    font-size: 36px;
-}
-
-h2 {
-    color: darkblue;
-}
-
-/* Styles for paragraphs */
-p {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-/* Main header */
-#main-header {
-    background-color: white;
     padding: 20px;
 }
 
-/* Navigation bar */
 nav {
-    background-color: darkblue;
+    background-color: #eeeeee;
     padding: 15px;
+    text-align: center;
 }
-/* Improved page styling*/
+
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-}
-
-/* Reusable class for centered text */
-.center-text {
-    text-align: center;
-}
-
-/* Reusable class for content boxes */
-.info-box {
-    background-color: white;
-    padding: 20px;
+    color: #003366;
     margin: 10px;
-    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Flexbox layout */
-.flex-container {
-    display: flex;
-    gap: 20px;
+main {
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
 }
 
-/* Makes each Flexbox section take equal space */
-.flex-container section {
-    flex: 1;
+section {
+    margin-bottom: 30px;
 }
 
-/* Unique section on the home page */
-#fish-list {
-    background-color: lightgray;
-    margin: 20px;
-    padding: 20px;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Unique section on the care page */
-#care-tips {
-    background-color: lightgray;
-    margin: 20px;
-    padding: 20px;
-}
-
-/* Footer */
-#main-footer {
-    background-color: darkblue;
+footer {
+    background-color: #2f6f73;
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
