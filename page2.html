@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,45 +14,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
 
-<header>
-    <h1>Fish Care</h1>
-</header>
+    <header class="text-center p-4">
+        <h1>Fish Care</h1>
+        <p>Keeping Your Aquarium Healthy</p>
+    </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="page2.html">Fish Care</a>
-</nav>
+    <nav class="text-center p-3">
+        <a href="index.html" class="btn btn-primary">Home</a>
+        <a href="page2.html" class="btn btn-primary">Fish Care</a>
+    </nav>
 
-<main>
+    <main class="container mt-4">
 
-    <section>
-        <h2>Tank Maintenance</h2>
+        <div class="row">
 
-        <p>
-            Keeping an aquarium clean is important for the health of the fish.
-            Regular water changes and a working filter help keep the water safe.
-        </p>
+            <section class="col-md-6 mb-4">
+                <h2>Tank Maintenance</h2>
 
-        <img src="images/tank.jpg" alt="Freshwater aquarium with plants and decorations">
-    </section>
+                <p>
+                    Keeping an aquarium clean is important
+                    for the health of the fish.
+                    Regular water changes and a working
+                    filter help keep the water safe.
+                </p>
 
-    <section>
-        <h2>Feeding Your Fish</h2>
+                <img src="images/tank.jpg"
+                     alt="Freshwater aquarium with plants"
+                     class="img-fluid rounded">
+            </section>
 
-        <p>
-            Fish should be fed the correct type and amount of food for their species.
-            Overfeeding can make the water dirty and cause health problems.
-        </p>
-    </section>
+            <section class="col-md-6 mb-4">
+                <h2>Feeding Your Fish</h2>
 
-</main>
+                <p>
+                    Fish should be fed the correct type
+                    and amount of food for their species.
+                    Overfeeding can make the water dirty
+                    and cause health problems.
+                </p>
 
-<footer>
-    <p>Fishkeeping Guide</p>
-</footer>
+                <h2>Water Quality</h2>
+
+                <p>
+                    Testing the water regularly helps make
+                    sure it is safe for your fish.
+                    Ammonia and nitrite levels should be
+                    kept at zero in an established aquarium.
+                </p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center p-3">
+        <p>Fishkeeping Guide</p>
+    </footer>
 
 </body>
 </html>
