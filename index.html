@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,48 +14,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
 
-<header>
-    <h1>Fishkeeping</h1>
-</header>
+    <header class="text-center p-4">
+        <h1>Fishkeeping</h1>
+        <p>A Beginner's Guide to Aquariums</p>
+    </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="page2.html">Fish Care</a>
-</nav>
+    <nav class="text-center p-3">
+        <a href="index.html" class="btn btn-primary">Home</a>
+        <a href="page2.html" class="btn btn-primary">Fish Care</a>
+    </nav>
 
-<main>
+    <main class="container mt-4">
 
-    <section>
-        <h2>Getting Started</h2>
+        <div class="row">
 
-        <p>
-            Fishkeeping is a fun hobby that involves caring for fish and maintaining an aquarium.
-            Before getting fish, it is important to understand their tank size, water conditions,
-            and basic care needs.
-        </p>
+            <section class="col-md-6 mb-4">
+                <h2>Getting Started</h2>
 
-        <img src="images/fish.jpg" alt="Freshwater fish swimming in an aquarium">
-    </section>
+                <p>
+                    Fishkeeping is a fun hobby that involves
+                    caring for fish and maintaining an aquarium.
+                    Before getting fish, it is important to
+                    understand their tank size, water conditions,
+                    and basic care needs.
+                </p>
 
-    <section>
-        <h2>Choosing the Right Fish</h2>
+                <img src="images/fish.jpg"
+                     alt="Fish swimming in an aquarium"
+                     class="img-fluid rounded">
+            </section>
 
-        <p>
-            Different fish have different needs. Some fish need larger tanks, while others can live
-            in smaller aquariums. Researching a fish before buying it can help keep it healthy.
-        </p>
+            <section class="col-md-6 mb-4">
+                <h2>Choosing the Right Fish</h2>
 
-        <a href="page2.html">Learn more about fish care</a>
-    </section>
+                <p>
+                    Different fish have different needs.
+                    Some fish need larger tanks, while others
+                    can live in smaller aquariums.
+                    Researching a fish before buying it can
+                    help keep it healthy.
+                </p>
 
-</main>
+                <a href="page2.html" class="btn btn-success">
+                    Learn More About Fish Care
+                </a>
+            </section>
 
-<footer>
-    <p>Fishkeeping Guide</p>
-</footer>
+        </div>
+
+    </main>
+
+    <footer class="text-center p-3">
+        <p>Fishkeeping Guide</p>
+    </footer>
 
 </body>
 </html>
