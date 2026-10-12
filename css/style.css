@@ -1,78 +1,39 @@
+
+/* General page styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #f5f9f9;
     color: #222222;
-    margin: 0;
     line-height: 1.6;
 }
 
+/* Header styles */
 header {
     background-color: #2f6f73;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
 
+/* Navigation styles */
 nav {
     background-color: #eeeeee;
-    padding: 15px;
-    text-align: center;
 }
 
-nav a {
-    color: #003366;
-    margin: 10px;
-    text-decoration: none;
-    font-weight: bold;
+nav .btn {
+    margin: 5px;
 }
 
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
+/* Heading styles */
+h1, h2 {
+    font-family: Arial, sans-serif;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
+/* Image styles */
 img {
-    max-width: 100%;
-    height: auto;
+    border: 2px solid #2f6f73;
 }
 
+/* Footer styles */
 footer {
     background-color: #2f6f73;
     color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
 }
